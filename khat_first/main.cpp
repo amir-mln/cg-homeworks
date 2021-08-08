@@ -3,7 +3,7 @@
  #include <conio.h>
  #include <math.h>
 using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* امیر مهدی مولاییان 952272327 */
 
 void khat_first(int x0, int y0, int xn, int yn){
 	if(x0 == xn && y0 != yn){
