@@ -46,7 +46,7 @@ void lineB(int x0, int y0, int xn, int yn){
 			Xi= x0;
 			Yi= y0;
 			for(int k=0; k < deltaX; k++ ){
-				cout<< "p: "<< p;
+				cout<< "p: "<< p << " k: "<< k;
 				if(p<0){
 					p = p + (2 * deltaY);
 					// Yk = Yk+1 avaz nemikonim
@@ -68,7 +68,7 @@ void lineB(int x0, int y0, int xn, int yn){
 			Xi= x0;
 			Yi= y0;
 			for(int k=0; k < deltaY; k++ ){
-				cout<< "p: "<< p;
+				cout<< "p: "<< p << " k: "<< k;
 				if(p<0){
 					p = p + (2 * deltaX);
 					// Xk = Xk+1 avaz nemikonim
